@@ -1,0 +1,31 @@
+i. Inspiracje (słowa, skojarzenia, pomysły):
+- porządek, rutyna, małe kroki, prostota
+- gamifikacja, motywacja, system nagród
+- przypomnienia, Pomodoro, tryb skupienia
+- kolorowe kategorie, szybkie dodawanie, minimalny UI
+- widok tygodniowy, checklisty, szablony zadań
+
+ii. Krótka lista elementów projektu:
+- Lista zadań (dodaj/edytuj/usuń)
+- Kalendarz tygodniowy / widok dnia
+- Powiadomienia / przypomnienia
+- Proste statystyki (czas spędzony, ukończone zadania)
+- Kategorie / tagi / priorytety
+- Szablony zadań i powtarzanie
+- Tryb skupienia (Pomodoro)
+- Ustawienia użytkownika i eksport/import
+
+iii. Wstępne dane wejściowe (przykłady):
+- Kategorie: Nauka, Zajęcia, Projekty, Przygotowania, Egzaminy
+- Pola zadania: tytuł, opis, data, czas trwania, kategoria, priorytet, powtarzanie, notatki
+- Funkcje: dodaj/edytuj/usuń zadanie, ustaw przypomnienie, oznacz jako wykonane, filtrowanie, sortowanie
+- Opcjonalnie: synchronizacja, eksport CSV
+
+iv. Lista źródeł pomysłu:
+- Własna potrzeba: brak struktury w nauce
+- Znajomi / koledzy ze studiów (feedback o przeładowaniu informacjami)
+- Istniejące narzędzia jako inspiracja: Todoist, Google Calendar, Notion
+- Artykuły o produktywności i technikach (Pomodoro, time blocking)
+- Przypadki: przygotowania do egzaminów, organizacja projektów semestralnych
+
+Uwagi: Można później rozbić listę funkcji na priorytety (MVP / później) i dodać przykładowe scenariusze użycia.

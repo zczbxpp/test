@@ -1,0 +1,48 @@
+Prosty diagram (flowchart) projektu: aplikacja do planowania nauki
+
+		 +-----------------+
+		 |   Użytkownik    |
+		 +-----------------+
+			 |
+			 v
+		 +-----------------+
+		 |   Interfejs UI  |
+		 | (Lista zadań,   |
+		 |  Kalendarz,     |
+		 |  Statystyki)    |
+		 +-----------------+
+		   |           |
+		   |           v
+		   |    +-----------------+
+		   |    | Powiadomienia   |
+		   |    | (np. przypomn.) |
+		   |    +-----------------+
+		   v
+	    +-----------------------+
+	    |  Logika biznesowa     |
+	    |  - Zarządzanie zadaniami
+	    |  - Planowanie w kalendarzu
+	    |  - Generowanie statystyk
+	    +-----------------------+
+			|
+			v
+		 +-----------------+
+		 |   Baza danych   |
+		 | (tasks, events, |
+		 |  user_prefs,    |
+		 |  stats)         |
+		 +-----------------+
+
+Legenda:
+- `Użytkownik` : osoba 18–25, korzystająca z aplikacji
+- `Interfejs UI`: widoki: lista zadań, tygodniowy kalendarz, proste statystyki
+- `Logika biznesowa`: reguły tworzenia/edycji zadań, harmonogramów, obliczeń statystyk
+- `Baza danych`: przechowywanie zadań, wydarzeń i ustawień użytkownika
+
+Konwersja do JPG (opcjonalnie): jeśli chcesz wygenerować obraz z tego tekstu i masz ImageMagick zainstalowany, uruchom w PowerShell:
+
+```powershell
+magick -background white -fill black -font Consolas -pointsize 12 label:@src/diagram_flowchart.txt src/diagram_flowchart.jpg
+```
+
+Jeśli chcesz, mogę zamiast tego wygenerować prosty SVG/PNG/JPG bezpośrednio — potwierdź, którą opcję wolisz.
