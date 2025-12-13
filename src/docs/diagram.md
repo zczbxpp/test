@@ -2,7 +2,7 @@
 
 Poniżej przedstawiono uproszczony diagram przepływu działania aplikacji do planowania nauki.
 
-
+```mermaid
 flowchart TD
     A[Użytkownik] --> B1[Interfejs UI]
     B1 --> B2[Lista zadań]
@@ -17,7 +17,6 @@ flowchart TD
     B4 --> D
 
     D --> E[Baza danych]
-
 
 ---
 
