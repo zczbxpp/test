@@ -17,7 +17,7 @@ flowchart TD
     B4 --> D
 
     D --> E[Baza danych]
-
+```
 ---
 
 ### Legenda
