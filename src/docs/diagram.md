@@ -3,38 +3,21 @@
 Poniżej przedstawiono uproszczony diagram przepływu działania aplikacji do planowania nauki.
 
 
-		 +-----------------+
-		 |   Użytkownik    |
-		 +-----------------+
-			 |
-			 v
-		 +-----------------+
-		 |   Interfejs UI  |
-		 | (Lista zadań,   |
-		 |  Kalendarz,     |
-		 |  Statystyki)    |
-		 +-----------------+
-		   |           |
-		   |           v
-		   |    +-----------------+
-		   |    | Powiadomienia   |
-		   |    | (np. przypomn.) |
-		   |    +-----------------+
-		   v
-	    +-----------------------+
-	    |  Logika biznesowa     |
-	    |  - Zarządzanie zadaniami
-	    |  - Planowanie w kalendarzu
-	    |  - Generowanie statystyk
-	    +-----------------------+
-			|
-			v
-		 +-----------------+
-		 |   Baza danych   |
-		 | (tasks, events, |
-		 |  user_prefs,    |
-		 |  stats)         |
-		 +-----------------+
+flowchart TD
+    A[Użytkownik] --> B1[Interfejs UI]
+    B1 --> B2[Lista zadań]
+    B1 --> B3[Kalendarz]
+    B1 --> B4[Statystyki]
+
+    B1 --> C[Powiadomienia]
+    C --> D[Logika biznesowa]
+    
+    B2 --> D
+    B3 --> D
+    B4 --> D
+
+    D --> E[Baza danych]
+
 
 ---
 
